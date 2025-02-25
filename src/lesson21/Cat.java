@@ -53,7 +53,6 @@ public class Cat {
         this.age = age;
     }
 
-
     // Поведение будущих объектов
     public void sleep() {
         System.out.println("Я сплю!");
