@@ -1,9 +1,4 @@
-package lesson_18;
-
-/**
- * @author Sergey Bugaenko
- * {@code @date} 20.02.2025
- */
+package lesson18;
 
 public class MethodsExample2 {
 
@@ -29,9 +24,9 @@ public class MethodsExample2 {
         // null - ничто - специальное значение, указывающее, что ссылка не ссылается на объект - отсутствие значения в переменной
         numbers = null;
 
-//        numbers[0] = 10; // Ошибка возникает во время работы программы NullPointerException
+        // numbers[0] = 10; // Ошибка возникает во время работы программы NullPointerException
         // нельзя взять 0-й элементу "ничего"
-//        System.out.println(numbers.length); // Тоже NPE - нельзя узнать длину "ничего" (null)
+        // System.out.println(numbers.length); // Тоже NPE - нельзя узнать длину "ничего" (null)
 
         link2[9] = 0;
         printArray(link2);
@@ -44,7 +39,7 @@ public class MethodsExample2 {
         changeMe(hello);
         System.out.println("hello main: " + hello);
 
-       String str2 = hello.toUpperCase();
+        String str2 = hello.toUpperCase();
         System.out.println("str2: " + str2);
         System.out.println("hello: " + hello);
 
@@ -69,9 +64,7 @@ public class MethodsExample2 {
     }
 
 
-
-
-    // Метод "красиво" выводящий все элементы массива ЦЕЛЫХ ЧИСЕЛ
+    // Метод красиво выводящий все элементы массива ЦЕЛЫХ ЧИСЕЛ
     public static void printArray(int[] array) {
         System.out.print("[");
         for (int i = 0; i < array.length; i++) { // перебираю индексы массива

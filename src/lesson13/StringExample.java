@@ -1,24 +1,20 @@
 package lesson13;
 
-/**
- * @author Sergey Bugaenko
- * {@code @date} 13.02.2025
- */
 
 public class StringExample {
 
     public static void main(String[] args) {
 
-        String greeting = "Hello World!"; // Объявление и инициализация переменной типа String
+        String greeting = "Hello World!";
 
-        String string1 = new String(("Hello!")); // Тоже создание новой строки (не рекомендуемым)
+        String string1 = new String(("Hello!"));
 
         System.out.println(greeting);
         System.out.println(string1);
 
         // Метод length() - получить количество символов в строке
-        int length = greeting.length(); // Вызов метода length() - подсчитать количество символов в этой строке
-        System.out.println("length(): " + length); // Выведет 12
+        int length = greeting.length();
+        System.out.println("length(): " + length);
 
         System.out.println("Hello".length());
 
@@ -26,9 +22,8 @@ public class StringExample {
         System.out.println(greeting.toUpperCase());
         System.out.println("greeting: " + greeting);
 
-        // String иммутабельна (неизменна)
-        // Если я хочу сохранить результат работы метода - я должен сохранить его в какую-то переменную
-        // (в новую переменную или переписать значение, хранящееся в "старой" переменной)
+        // String неизменна
+        // Если я хочу сохранить результат работы метода - я должен сохранить его в какую-то переменную (в новую переменную или переписать значение, хранящееся в "старой" переменной)
 
         // переводит все символы строки в нижний регистра
         String stringCase = greeting.toLowerCase();
@@ -40,7 +35,7 @@ public class StringExample {
 
         System.out.println("\n=======================\n");
 
-//        Различные вариант конкатенации (склеивaния / объединения) строк
+        //Различные вариант конкатенации (склеивaния / объединения) строк
         String str1 = "One";
         String str2 = " ";
         String str3 = "hello";
@@ -142,10 +137,5 @@ public class StringExample {
         String stringReg = "One World One Onix O";
         replStr = stringReg.replaceAll("\\bO\\w+", "Replaced");
         System.out.println("replStr: " + replStr);
-
-
-
-
-
     }
 }

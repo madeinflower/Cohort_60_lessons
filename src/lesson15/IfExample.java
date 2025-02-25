@@ -1,31 +1,25 @@
 package lesson15;
 
 import java.util.Random;
-// Ctrl + Opt + O // Ctrl + Alr + O - оптимизировать импорты (удалить неиспользуемые)
-
-/**
- * @author Sergey Bugaenko
- * {@code @date} 17.02.2025
- */
 
 public class IfExample {
     public static void main(String[] args) {
 
         // Условный оператор if - позволяет выборочно выполнять отдельные части программы (блоки кода)
 
-/*
-       if (условие) оператор;
-       else оператор; // в т.ч. это может быть {}
+        /*
+        if (условие) оператор;
+        else оператор; // в т.ч. это может быть {}
 
 
-       if (условие) {
+        if (условие) {
             // Код при условие = true
-       } else if (условие 2) {
-             // Код при условие 2 = true
-       } else {
+        } else if (условие 2) {
+            // Код при условие 2 = true
+        } else {
             // Код при условие = false
-       }
- */
+        }
+        */
 
         int age = 5;
 

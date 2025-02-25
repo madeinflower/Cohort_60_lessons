@@ -1,11 +1,5 @@
 package lesson14;
 
-/**
- * @author Sergey Bugaenko
- * {@code @date} 14.02.2025
- */
-
-
 public class BooleanExample {
     public static void main(String[] args) {
 
@@ -165,10 +159,6 @@ public class BooleanExample {
 
         System.out.println("\n ============ Приоритет логических операций =============");
 
-        /*  ! & ^ | && ||  - приоритет логических операций
-
-         */
-
         System.out.println(true ^ true & false); // true
         System.out.println(true ^ false); // true
         System.out.println(true); // true
@@ -178,8 +168,6 @@ public class BooleanExample {
         System.out.println(true ^ true && false); // false
         System.out.println(false && false); // false
         System.out.println(false); // false
-
-
 
     }
 }

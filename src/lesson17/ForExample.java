@@ -1,11 +1,6 @@
-package lesson_17;
+package lesson17;
 
 import java.util.Random;
-
-/**
- * @author Sergey Bugaenko
- * {@code @date} 19.02.2025
- */
 
 public class ForExample {
     public static void main(String[] args) {
@@ -30,7 +25,7 @@ public class ForExample {
         }
 
         System.out.println();
-//        System.out.println("Я не вижу локальную переменную i: " + i);
+        //System.out.println("Я не вижу локальную переменную i: " + i);
 
         System.out.println("После цикла for");
 
@@ -61,7 +56,6 @@ public class ForExample {
 
         int v = 15, u = 20;
 
-
         // Мы можем инициализировать и изменять любое кол-во переменных в блоках инициализации и/или изменений
         int k = 14;
         for (int a = 0, f = 1; k >= 0 && f < 10; k--, a = ++a + k, f++) {
@@ -74,7 +68,7 @@ public class ForExample {
         // Заполнить массив случайными значениями от - 50 до 50 включительно // 0 -50 -> -50 -> x -50 = 50; = 50 + 50
 
         Random random = new Random();
-//        int length = random.nextInt(11) + 5; // случайная длина
+        //int length = random.nextInt(11) + 5; // случайная длина
 
         int[] ints = new int[random.nextInt(11) + 5];
 
@@ -85,8 +79,7 @@ public class ForExample {
             System.out.print(ints[i] + (i < ints.length - 1 ? ", " : "]\n"));
         }
 
-//        System.out.println("]");
-
+        //System.out.println("]");
 
         // Найти минимальное значение в массиве ints (вывести его в консоль)
 
@@ -110,7 +103,6 @@ public class ForExample {
             System.out.print(i + ", ");
         }
         System.out.println();
-
 
         for (int i = 0; i < 7; i++) {
 

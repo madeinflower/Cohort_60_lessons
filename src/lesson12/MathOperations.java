@@ -1,10 +1,5 @@
 package lesson12;
 
-/**
- * @author Sergey Bugaenko
- * {@code @date} 12.02.2025
- */
-
 public class MathOperations {
 
     public static void main(String[] args) {
@@ -18,8 +13,8 @@ public class MathOperations {
         result = 15 + 6;
         System.out.println("result: " + result);
 
-        // 1. Сначала происходит вычисления результат справа от знака присвоения
-        // 2. Результат вычисления присваивается в переменную слева от знака равно
+        // 1 Сначала происходит вычисления результат справа от знака присвоения
+        // 2 Результат вычисления присваивается в переменную слева от знака равно
         result = var1 + var2;
         System.out.println("var1 + var2 = " + result);
 
@@ -52,16 +47,5 @@ public class MathOperations {
         // Знак / между двумя вещественными (дробными) числами - операция "обычного" деления (результат с дробной частью)
         double doubleRes = doubleVar / doubleVar2;
         System.out.println("doubleRes = " + doubleRes);
-
-
-
-
-
-
-
-
-
-
-
     }
 }

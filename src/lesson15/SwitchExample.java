@@ -3,11 +3,6 @@ package lesson15;
 import java.util.Random;
 import java.util.Scanner;
 
-/**
- * @author Sergey Bugaenko
- * {@code @date} 17.02.2025
- */
-
 public class SwitchExample {
 
     public static void main(String[] args) {
@@ -17,7 +12,6 @@ public class SwitchExample {
         Это альтернатива множественным оператор if-else if, когда проверяется равенство одной переменной с разными значениями
 
         Особенно хорош, когда мы выбираем из известного и конечного количества вариантов.
-
          */
 
         int x = 5;
@@ -189,9 +183,5 @@ public class SwitchExample {
             default:
                 System.out.println("Ответ не верный, попробуй еще раз!");
         }
-
-
-
-
     }
 }

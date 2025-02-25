@@ -1,11 +1,6 @@
-package lesson_16;
+package lesson16;
 
 import java.util.Random;
-
-/**
- * @author Sergey Bugaenko
- * {@code @date} 18.02.2025
- */
 
 public class ArrayExample {
     public static void main(String[] args) {
@@ -14,7 +9,7 @@ public class ArrayExample {
         x = 10;
 
         int[] array; // Объявление массива целых чисел
-        //int array1[]; // Альтернативный способ объявления. НЕ РЕККОМЕНДУЮТСЯ использовать
+        //int array1[]; // Альтернативный способ объявления. НЕ РЕКОМЕНДУЮТСЯ использовать
         String[] strings; // Объявляем массив строк
 
         array = new int[4]; // создали (инициализировали) массив типа int с 4 ячейками
@@ -90,9 +85,6 @@ public class ArrayExample {
             }
             i++;
         }
-
         System.out.println("Минимальное значение в массиве: " + min);
-
-
     }
 }

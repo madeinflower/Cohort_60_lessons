@@ -1,9 +1,4 @@
-package lesson_18;
-
-/**
- * @author Sergey Bugaenko
- * {@code @date} 20.02.2025
- */
+package lesson18;
 
 public class MethodsWithReturn {
 
@@ -13,7 +8,7 @@ public class MethodsWithReturn {
         // Возвращаемое значение - это результат, который метод отправляет обратно вызывающему его (метод) коду как результат своей работы.
         // Это способ передать результат вычислений метода в другие части программы.
 
-//        int sum = 10 + 5; // int sum = 15 ->
+        // int sum = 10 + 5; // int sum = 15 ->
         calculateSum(10, 5);
         int sum = calculateSum(10, 5); //  -> int sum = 15;
 
@@ -61,7 +56,6 @@ public class MethodsWithReturn {
         // что если х отрицательный - отбросить знак числа
         if (x < 0) x *= -1;
 
-
         // вычисляем 2 ^ |x|
         double result = 1;
         // x = 2;
@@ -85,6 +79,5 @@ public class MethodsWithReturn {
         System.out.println(result);
         return result; // return - оператор, заканчивающий работу метода и возвращающий значение
     }
-
 
 } // End class

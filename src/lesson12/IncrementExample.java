@@ -1,10 +1,5 @@
 package lesson12;
 
-/**
- * @author Sergey Bugaenko
- * {@code @date} 12.02.2025
- */
-
 public class IncrementExample {
     public static void main(String[] args) {
 
@@ -18,7 +13,6 @@ public class IncrementExample {
         x /= 5;
         System.out.println("19 строка -> x = " + x);
 
-        // Инкремент, декремент
         x++; // x = x + 1; x += 1; // Инкремент - увеличить текущее значение в переменной x на 1
 
         System.out.println("x: " + x);
@@ -26,10 +20,9 @@ public class IncrementExample {
         x--; // x + x -1; // x -= 1; // Декремент - уменьшить текущее значение в переменной x на 1
         System.out.println("x: " + x);
 
-        System.out.println("\n =================== \n");
 
         /*
-            Инкремент и декремент можно записать по разному:
+            Инкремент и декремент можно записать по-разному:
              после переменной x++, x-- (постфикс)
              перед переменной ++x, --x (префикс)
 

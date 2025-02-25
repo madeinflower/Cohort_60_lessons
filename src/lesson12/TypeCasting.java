@@ -1,9 +1,5 @@
 package lesson12;
 
-/**
- * @author Sergey Bugaenko
- * {@code @date} 12.02.2025
- */
 
 public class TypeCasting {
     public static void main(String[] args) {
@@ -43,7 +39,6 @@ public class TypeCasting {
 
         System.out.println("\n ======================= \n");
 
-        // Преобразование в вычислениях
 
         int x = 20;
         int y = 7;

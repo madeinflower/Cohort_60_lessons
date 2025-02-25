@@ -1,9 +1,4 @@
-package lesson_17;
-
-/**
- * @author Sergey Bugaenko
- * {@code @date} 19.02.2025
- */
+package lesson17;
 
 public class MethodsExample {
 
@@ -21,12 +16,10 @@ public class MethodsExample {
         printDecimalCodeOfChar(anotherChar);
         printDecimalCodeOfChar('6');
 
-
         int[] array = {1, 45, 76, 54, 980, 435, 9, 0};
         printArray(array);
         int[] array2 = {1, 2, 3, 4, 5, 56, -100, 0, 43, 6565, 43, 545, 45};
         printArray(array2);
-
 
         array[3] = 1001;
         array[0] = -100_000;
@@ -43,7 +36,7 @@ public class MethodsExample {
     } // Method area (место написания методов)
 
     /*
-    ПЕРЕГРУЗКА методов
+    Перегрузка методов
 
     В пределах одного класса может быть два и более методов с одинаковым именем,
     но разным набором параметров (тип и порядок параметров имеют значение)
@@ -86,6 +79,5 @@ public class MethodsExample {
         // Тело метода
         System.out.println("Hello World!");
     }
-
 
 } // End class

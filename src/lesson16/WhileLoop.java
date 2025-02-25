@@ -1,11 +1,6 @@
-package lesson_16;
+package lesson16;
 
 import java.util.Scanner;
-
-/**
- * @author Sergey Bugaenko
- * {@code @date} 18.02.2025
- */
 
 public class WhileLoop {
     public static void main(String[] args) {
@@ -38,22 +33,22 @@ public class WhileLoop {
         number = 1;
         while (number <= 5) {
             System.out.print(number + ", ");
-//            number++; Если мы забудем обновить значение переменной счетчика-цикла, то рискуем получить
+            //number++; Если мы забудем обновить значение переменной счетчика-цикла, то рискуем получить
             // бесконечный цикл
         }
          */
 
         // Бесконечный цикл
-//        while (true) {
-//            System.out.print("Hello! ");
-//        }
+        // while (true) {
+        // System.out.print("Hello! ");
+        // }
 
         // Распечатать числа от 100 до 90 включительно в порядке убывания
         int i = 100;
 
         while (i >= 90) {
             System.out.print(i-- + ", ");
-//            i--;
+            //i--;
         }
         System.out.println();
 
@@ -167,8 +162,5 @@ public class WhileLoop {
         } while (num <= 0);
 
         System.out.println("Спасибо, вы ввели: " + num);
-
-
-
     }
 }

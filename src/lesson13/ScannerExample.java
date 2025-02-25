@@ -1,24 +1,16 @@
 package lesson13;
 
-
 import java.util.Scanner;
 
-/**
- * @author Sergey Bugaenko
- * {@code @date} 13.02.2025
- */
 
 public class ScannerExample {
     public static void main(String[] args) {
-
-        // Строка подготавливает программу для чтения данных из стандартного потока ввода
-        // от пользователя через клавиатуру
 
         Scanner scanner = new Scanner(System.in);
 
         //Прочитать строку
         System.out.println("Введите ваше имя: ");
-        // читает всю строку введенную пользователем - и возвращает ее в виде String
+        //Читает всю строку введенную пользователем - и возвращает ее в виде String
         String name = scanner.nextLine();
         System.out.println("Привет, " + name);
 
@@ -30,8 +22,6 @@ public class ScannerExample {
         System.out.println("Введи город: ");
         String city = scanner.nextLine();
         System.out.println("City: " + city);
-
-        // Todo Чтение токенами чисел
 
     }
 }

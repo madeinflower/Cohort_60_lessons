@@ -1,10 +1,5 @@
 package lesson14;
 
-/**
- * @author Sergey Bugaenko
- * {@code @date} 14.02.2025
- */
-
 public class StringEquals {
     public static void main(String[] args) {
 
@@ -17,7 +12,6 @@ public class StringEquals {
         String str4 = new String("Java");
 
         System.out.println(str1 + " | " + str2 + " | " + str3 + " | " + str4);
-
 
         // ВАЖНО! Оператор == сравнивает значения, которые хранятся в переменных
 
@@ -38,12 +32,7 @@ public class StringEquals {
         System.out.println("str1.equals(str4): " + str1.equals(str4));
         System.out.println("str2.equals(str4): " + str2.equals(str4));
 
-
-
         // Мы можем сравнивать значения игнорируя регистр букв
         System.out.println("\"java\".equalsIgnoreCase(\"JAVA\"): " + str1.equalsIgnoreCase(str3)); // java равно по значению Java
-
-
-
     }
 }

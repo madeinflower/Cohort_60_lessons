@@ -1,10 +1,5 @@
 package lesson11;
 
-/**
- * @author Sergey Bugaenko
- * {@code @date} 11.02.2025
- */
-
 public class Variables {
     public static void main(String[] args) {
 
